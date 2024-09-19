@@ -1,0 +1,67 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
+
+
+:root{
+  --text-color:#fff;
+  --bg-main:#131722;
+  --main-font:'Montserrat Alternates';
+  --line-bg:#24baef;
+  --font-color:#fff;
+  --border-color:#a8a8a83d;
+  --text-muted:#adb5bd69;
+}
+
+
+
+
+
+body{
+  background-color:var(--bg-main) ;
+  font-family: var(--main-font);
+  color: var(--font-color);
+}
+a{
+  color: var(--font-color);
+  text-decoration: none;
+
+}
+.my-input{
+  background-color: transparent;
+  border: solid 1px var(--border-color);
+  color:var(--text-color);
+}
+.brdr{
+  height: 1px;
+  background-color: var(--border-color);
+}
+.vote{
+  background-color: var(--line-bg);
+  color: var(--text-color);
+}
+.muted{
+  color: var(--text-muted);
+}
+.offline{
+  background-color: #4e6195;
+  box-shadow:10px 10px 10px #ccc ;
+border-radius: 50%;
+  margin: 40px;
+  padding:20px;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  z-index: 9999;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace ;
+}
+.element{
+  background-color: #2c3e50 ;
+height: 300px;
+/* padding: 50px; */
+box-shadow:5px 5px 5px #ccc ;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
